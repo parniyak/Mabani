@@ -1,0 +1,15 @@
+//برنامه‌ای بنویسید که فاکتوریل یک عدد را محاسبه کند
+//فاکتوریل یعنی ضرب تمام اعداد از ۱ تا خود عدد
+#include <iostream>
+using namespace std;
+int main() {
+    int n;
+    long long fact = 1;
+    scanf("%d", &n);
+
+    for (int i = 1; i <= n; i++)
+        fact *= i;
+
+    printf("%lld", fact);
+    return 0;
+}
