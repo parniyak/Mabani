@@ -1,0 +1,16 @@
+//چاپ تعداد اعداد واردشده تا زمانی که عدد منفی وارد شود
+#include <iostream>
+using namespace std;
+int main() {
+    int n, count = 0;
+
+    while (1) {
+        scanf("%d", &n);
+        if (n < 0)
+            break;
+        count++;
+    }
+
+    printf("%d", count);
+    return 0;
+}
