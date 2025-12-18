@@ -1,0 +1,8 @@
+//طول و عرض مستطیل را دریافت کرده و مساحت آن را محاسبه کنید
+#include <iostream>
+using namespace std;
+int l, w;
+    scanf("%d %d", &l, &w);
+    printf("%d", l * w);
+    return 0;
+}
