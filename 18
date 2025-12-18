@@ -1,0 +1,14 @@
+//قبولی یا مردودی
+//شرط: نمره ۱۰ به بالا = قبولی
+#include<iostream>
+using namespace std;
+int main() {
+    float n;
+    scanf("%f", &n);
+
+    if (n >= 10)
+        printf("Pass");
+    else
+        printf("Fail");
+
+    return 0;
