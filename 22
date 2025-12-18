@@ -1,0 +1,14 @@
+//برنامه بنویسید با استفاده از الگوریتم اقلیدس ،بزرگ ترین مقسوم علیه مشترک دو عدد صحیح داده شده را بیابید 
+#include <iostream>
+using namespace std;
+int main()
+{
+int m,n,temp;
+cout<<"please enter two positive integers";
+cin>>m>>n;
+while (m%n !=0)
+{ temp=m;
+  m=n;
+  n=temp%n; } 
+cout<<"divisor is:";
+}
