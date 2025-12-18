@@ -1,0 +1,13 @@
+//برنامه ای را نوشته و اجرا کنید که ارقام یک عدد مثبت داده شده را معکوس کند 
+#include <iostream>
+using namespace std;
+int main()
+{ int x, s=0 ;
+cin>>x;
+while(x!=0)
+{
+s=s*10+x%10;
+x=x\10;
+}
+cout<<"Reverse of input number is"<<s<<endl;
+}
